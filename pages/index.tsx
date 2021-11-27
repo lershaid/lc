@@ -210,7 +210,6 @@ export default function Home(): ReactElement {
 
         </div>
       </div>
-<div img='./img/discord.svg'>Hello</div>
 
     </Layout>
   );
