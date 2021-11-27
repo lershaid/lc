@@ -5,7 +5,7 @@ export function Footer(): ReactElement {
     return (
         <div className={styles.footer}>
             <p>
-                This website is community maintained and{" "}
+                This website is developed and maintained by Longcat Army{" "}
                 <a
                     href="https://github.com/lootproject/website"
                     target="_blank"

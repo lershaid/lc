@@ -20,7 +20,7 @@ export function Card(props: CardProps) {
   const all = "w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/4 mb-10 "
   return (
     <div
-      className={project.name == "Loot (for Adventurers)" ? loot : all}
+      className={project.name == "Longcat (for Adventurers)" ? loot : all}
     >
       <div className="bg-gray-900 rounded-3xl shadow-sm  my-3 transform hover:-translate-y-2 hover:border-gray-600  duration-150 mx-3 h-full flex flex-col">
         {project.image && (
