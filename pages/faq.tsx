@@ -15,16 +15,17 @@ export default function FAQ(): ReactElement {
 
         {/* What is loot ? */}
         <div className="my-8">
-          <h3>What is Loot?</h3>
+          <h3>What is Longcat?</h3>
           <p>
-            Loot is a collection of 8,000 unique bags of adventurer gear,
-            originally released by{" "}
+            Longcat is a cat that is long...{"....too looooong..."}
             <a
-              href="https://twitter.com/dhof/status/1431316631934967815"
+
+              href="https://en.uncyclopedia.co/wiki/Longcat"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ color: 'red' }}
             >
-              Dom Hofmann
+              Longcats
             </a>
             . At release, anyone could claim loot bags for just gas, and all
             bags were claimed in under 4 hours. Each loot bag contains 8 items:
