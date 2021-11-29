@@ -101,7 +101,7 @@ export const guildsList: Record<string, string>[] = [
   {
     name: "The Ancients",
     description: "For owners of Ancient Loot",
-    url: "https://ancients.app/",
+    url: "https://ancients.vercel.app/",
   },
   {
     name: "CastleDAO",

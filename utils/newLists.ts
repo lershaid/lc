@@ -1,5 +1,6 @@
 import {
   loot,
+  loot2,
   bibliotheca,
   genesisMana,
   lootCharacter,
@@ -49,6 +50,7 @@ export const onlyLoot = [
     description: "",
     project: [
       loot,
+      loot2,
     ],
   },
 ];
@@ -82,10 +84,10 @@ export const getYourCharacter = [
     name: "",
     description: "",
     project: [
-      lootCharacter,
-      LootExplorers,
-      hyperLoot,
-      lootSwag
+    //  lootCharacter,
+    //  LootExplorers,
+    //  hyperLoot,
+    //  lootSwag
     ],
   },
 ];

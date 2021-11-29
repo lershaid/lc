@@ -1,114 +1,41 @@
 import SyntheticLoot from "@components/SyntheticLoot";
 import { Project } from "../types/interface";
-const loot: Project = {
-  name: "Loot (for Adventurers)",
-  description: "The original 8,000 OG Loot bags. ",
-  whatToDo: [
-    {
-      content: "Trade on Loot.exchange",
-      url: "https://www.loot.exchange/"
-    },
-    {
-      content: "Trade on OpenSea",
-      url: "https://opensea.io/collection/lootproject"
-    }
 
-  ],
-  contract: {
-    content: "0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7",
-    url: "https://etherscan.io/"
-  },
-  twitter: {
-    url: "https://twitter.com/lootproject"
-  },
-  discord: {
-    url: "https://discord.com/invite/23gbrJ6pje"
-  },
-  opensea: {
-    url: "https://opensea.io/collection/lootproject"
-  },
-  image: "/lootheader.svg"
+const loot: Project = {
+  name: "Longcats are very long!",
+  description: "If you were looking for a longcat, you shall see a cat that is long...",
+
+  image: "/vio.jpg"
+};
+
+const loot2: Project = {
+  name: "There could be only one!",
+  description: "the fight between good and evil will never disappear!",
+
+  image: "/lc081.png"
 };
 
 const mLoot: Project = {
-  name: "More Loot",
+  name: "Longcats history!",
   description:
-    "1.5 million bags of More Loot (or \"mLoot\"), with ~250,000 more available per year. They are free to claim.",
-  whatToDo: [
-    {
-      content: "Mint an mLoot Bag",
-      url: "https://etherscan.io/address/0x1dfe7ca09e99d10835bf73044a23b73fc20623df#writeContract"
-    }
-  ],
-  contract: {
-    content: "0x1dfe7Ca09e99d10835Bf73044a23B73Fc20623DF",
-    url: "https://etherscan.io/"
-  },
-  twitter: {
-    url: "https://twitter.com/dhof/status/1434180216444923923?lang=en"
-  },
-  discord: {
-    url: "https://discord.com/invite/23gbrJ6pje"
-  },
-  opensea: {
-    url: "https://opensea.io/collection/more-loot"
-  },
-  image: "/mlootheader.svg"
+    "The most important moments in history were guided by longcats.  All who lived throught them testified that the moment Longcats were observed, history was in the making...",
+
+  image: "/lc05.jpg"
 };
 
 const sLoot: Project = {
-  name: "Synthetic Loot",
+  name: "Why Longcat is long?",
   description:
-    "Loot bags for everyone, free and tied to your Ethereum address. There are 2^256 Synthloot bags.",
-  whatToDo: [
-    {
-      content: "View your sLoot",
-      url: 'https://loot.stephancill.co.za/#/'
-    },
-    // {
-    //   content: "View your sLoot",
-    //   component: <SyntheticLoot />
-    // }
-  ],
-  contract: {
-    content: "0x869ad3dfb0f9acb9094ba85228008981be6dbdde",
-    url: "https://etherscan.io/"
-  },
-  twitter: {
-    url: "https://twitter.com/lootproject"
-  },
-  discord: {
-    url: "https://discord.com/invite/23gbrJ6pje"
-  },
-  opensea: {
-    url: "https://opensea.io/collection/lootproject"
-  },
-  image: "/syntheticheader.svg"
+    "Scientifically speaking, longcat can only be so long...  Never the less, the scientifc community is still working on an answer to this question.",
+
+  image: "/lc04.jpg"
 };
 
 const realms: Project = {
   name: "Realms",
-  heading: "Settle a Realm",
-  description: "8000 Procedurally generated Realms for Adventurers to explore. 16 orders rule 500 Realms each. Prepare for the wars to come.",
-  whatToDo: [
-    {
-      content: "Trade",
-      url: "https://opensea.io/collection/lootrealms"
-    }
-  ],
-  website: {
-    url: "https://bibliothecaforloot.com/realms"
-  },
-  contract: {
-    content: "0x7afe30cb3e53dba6801aa0ea647a0ecea7cbe18d"
-  },
-  twitter: {
-    url: "https://twitter.com/LootRealms"
-  },
-  discord: {
-    url: "https://discord.gg/hTYmwpvCDq"
-  },
-  image: "https://storage.opensea.io/files/2468d5c3fc290400d053a68e149c9d1c.svg"
+  heading: "MEME Coin",
+  description: "Our offerings of the new Meme coin to replace the LC Token on the ICO Day",
+  image: "MC.png"
 };
 
 const dungeons: Project = {
@@ -170,34 +97,17 @@ const bibliotheca: Project = {
 };
 
 const genesisMana: Project = {
-  name: "Genesis Project",
-  heading: "Distill Genesis Mana with your Loot bag.",
-  description: "All bags with items 'of' Orders have free Genesis Mana inside them. Collect a perfect set of 8 Genesis Mana in order to resurrect a Genesis Adventurer and receive its “Genesis Loot” bag. ",
+  name: "Exchange Rate",
+
+description: "The two coins are exchangable based on the USDT value. Further explanatory information shall be in the FAQ Section",
   whatToDo: [
-    {
-      content: "Distill Genesis Mana",
-      url: "https://genesisproject.notion.site/Genesis-Mana-a11c2f7bffbd4fa0a28d0519b19d26dc"
-    },
-    {
-      content: "Trade",
-      url: "https://genesisproject.notion.site/Genesis-Adventurer-cc41f0c184ab481aafb0e1056a48727e"
-    }
-  ],
-  contract: {
-    content: "0xf4b6040a4b1b30f1d1691699a8f3bf957b03e463"
-  },
-  twitter: {
-    url: "https://twitter.com/GenesisLoot"
-  },
-  discord: {
-    url: "https://discord.gg/cjA4g66Ett" // TODO: change personal links to general links
-  },
-  image:
-    "https://storage.opensea.io/files/83c07d8f6b1647e1a4111d1adff10fce.svg",
-  neededProject: loot,
-  mintPrice: {
-    mint: 0
-  }
+    {content: "1 MC = 2 LCT"},
+    {content: "1 USDT = 1 LCT"},
+    {content: "1 LCT = 1 MC"}
+            ],
+
+  image:"/ex03.png"
+
 };
 
 const lootCharacter: Project = {
@@ -255,32 +165,10 @@ const lootExchange: Project = {
   image: "/exchangeLogo2.svg"
 };
 const lootMart: Project = {
-  name: "Unbundle Your Bag",
+  name: "LCT Token",
   description: "Unbundle your Loot Bags into individual Lootmart items that you can trade and use to upgrade your Adventurer in the Loot universe.",
-  whatToDo: [
-    {
-      content: "Unbundle",
-      url: "https://www.lootmart.xyz/"
-    },
-    {
-      content: "Trade",
-      url: "https://opensea.io/collection/lootmart"
-    }
-  ],
-  website: {
-    url: "https://www.lootmart.xyz/"
-  },
-  contract: {
-    content: "0x9b51a88cffe9b50e043661ddd7f492cc3888fcbf",
-    url: "https://etherscan.io/"
-  },
-  twitter: {
-    url: "https://twitter.com/lootmart_xyz"
-  },
-  discord: {
-    url: "https://discord.gg/w8txv8bvWd" // TODO: not yet public
-  },
-  image: "https://lh3.googleusercontent.com/_D435IWZD8wPdDrR-zUbsbifnUgp-T-XOQrfS9bPs1okOSUTqXpH3zS8I8Yl-Djynx7aEbT9gY7IJ1DUzYAznzKHBDMGCJbOlWPr=w600",
+
+  image: "LCT.png",
   neededProject: loot
 };
 
@@ -374,41 +262,10 @@ const stakeARealm: Project = {
 };
 
 const genesisAdventurer: Project = {
-  name: "Genesis Loot",
-  description: "The 2,540 bags of Genesis Loot were carried by the original 'Genesis Adventurers.' Through teamwork and collaboration, players resurrect Genesis Adventurers to protect and champion their ancestral Orders.",
-  whatToDo: [
-    {
-      content: "Resurrect a Genesis Adventurer",
-      url: "https://genesisproject.notion.site/"
-    },
-    {
-      content: "Trade on OS",
-      url: "https://opensea.io/collection/genesisadventurer"
-    },
-  ],
-  website: {
-    url: "https://genesisproject.xyz/"
-  },
-  contract: {
-    content: "0x8db687aceb92c66f013e1d614137238cc698fedb"
-  },
-  twitter: {
-    url: "https://twitter.com/genesisloot"
-  },
-  discord: {
-    url: "https://discord.gg/YUYyPSuwfU"
-  },
-  opensea: {
-    url: "https://opensea.io/collection/genesisadventurer"
-  },
-  github: {
-    url: "https://github.com/genesisproject4loot/genesisadventurer"
-  },
-  image: "/genesis.svg",
-  neededProject: genesisMana,
-  mintPrice: {
-    mint: 0.25
-  }
+  name: "Longcats are holy",
+  description: "They are among the most holy creatures in the universe.  You could find them up and beyond and also they are very active in holiness stuff",
+  image: "/lc06.png"
+
 };
 const lootMartAssemble: Project = {
   name: "Equip a Warrior (coming soon)",
@@ -539,6 +396,7 @@ const fLoot: Project = {
 
 export {
   loot,
+  loot2,
   bibliotheca,
   genesisMana,
   lootCharacter,
