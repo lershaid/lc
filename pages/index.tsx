@@ -4,9 +4,11 @@ import { useRouter } from "next/router"; // Routing
 import Layout from "@components/Layout"; // Layout wrapper
 import { CardRow } from "@components/Row";
 import { whatToGet, whatToDo, getAfterLoot, getYourCharacter, onlyLoot } from "../utils/newLists"
-import Opensea from "../img/opensea.svg"
+import Opensea from "../img/opensea.svg";
+import Telegram from "../img/tel.svg";
 import Twitter from "../img/twitter.svg";
 import ExchangeIcon from "../img/exchangeIcon2.svg";
+import ExchangeIcon2 from "../img/ex02.svg";
 import Discord from "../img/discord.svg";
 
 // Types
@@ -20,9 +22,9 @@ export default function Home(): ReactElement {
         <div className="w-full sm:w-1/2">
           <div className="sm:px-4">
 
-            <h1>Longcat</h1>
+            <h1>Longcat Token</h1>
 
-            <p className="text-xl sm:text-2xl text-gray-300">Longcats are among the most prestigious creatures ever walked on this earth.</p>
+            <p className="text-xl sm:text-2xl text-gray-300">Longcats are among the most prestigious creatures ever walked on this earth. We are selling LCT to enogerates the ressoruction of the Longcat Army!</p>
             <div>
               <div className="flex py-8 w-full justify-center space-x-6">
                 <a
@@ -30,14 +32,14 @@ export default function Home(): ReactElement {
                   className="self-center p-3 border border-gray-800 rounded-xl bg-black hover:bg-gray-600"
                   target="_blank"
                 >
-                  <ExchangeIcon className="fill-current hover:text-gray-200 text-gray-400 w-6 h-6 mx-2" />
+                  <ExchangeIcon2 className="fill-current hover:text-gray-200 w-6 h-6 mx-2" />
                 </a>
                 <a
-                  href="https://opensea.io/collection/lootproject"
-                  className="self-center p-3 border border-gray-800 rounded-xl  bg-black hover:bg-gray-600"
+                  href="https://www.lct.exchange/"
+                  className="self-center p-3 border border-gray-800 rounded-xl bg-black hover:bg-gray-600"
                   target="_blank"
                 >
-                  <Opensea className=" hover:text-gray-200  w-6 h-6 mx-2" />
+                  <Telegram className="fill-current hover:text-gray-200 w-6 h-6 mx-2" />
                 </a>
                 <a
                   href="https://twitter.com/lootproject"
@@ -75,7 +77,7 @@ export default function Home(): ReactElement {
           <div className="flex justify-around">
             <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 ">
               <span className="uppercase sm:text-xl tracking-widest text-gray-400">The Quest begins here</span>
-              <h1 className="text-center mt-4 capitalize">Get your Longcat here</h1>
+              <h1 className="text-center mt-4 capitalize">Overview</h1>
               <p className="text-xl sm:text-2xl text-gray-400">Among the most ambitious project ever that been justified by the importance of Longcats around the world</p>
             </div>
           </div>
@@ -95,9 +97,9 @@ export default function Home(): ReactElement {
         <div className="container mx-auto mt-8">
           <div className="flex justify-around">
             <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3">
-              <span className="uppercase sm:text-xl tracking-widest text-gray-400">First Stage</span>
-              <h1 className="text-center mt-4 capitalize">In the beninging</h1>
-              <p className="sm:text-2xl text-gray-400">Starting Meme Coins for the resale</p>
+              <span className="uppercase sm:text-xl tracking-widest text-gray-400">Stage I</span>
+              <h1 className="text-center mt-4 capitalize">Token Offering</h1>
+              <p className="sm:text-2xl text-gray-400">In this stage, we are offering MEME Tokens for our community memebrs.  With MEME Tokens, our members will be able to exchange them with LCT They are public</p>
             </div>
           </div>
 
@@ -112,9 +114,9 @@ export default function Home(): ReactElement {
         <div className="container mx-auto mt-8">
           <div className="flex justify-around">
             <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3">
-              <span className="uppercase sm:text-xl tracking-widest text-gray-400">Stage 2</span>
-              <h1 className="text-center mt-4">Presale of Longcat Tokens</h1>
-              <p className="sm:text-2xl text-gray-400">Here were we start the sale of LC Tokens, to share the love and the cat</p>
+              <span className="uppercase sm:text-xl tracking-widest text-gray-400">Stage II</span>
+              <h1 className="text-center mt-4">Marketplace and Exchange</h1>
+              <p className="sm:text-2xl text-gray-400">Congratulations! at this stage, we overcame the ICO and stood our ground.  Now, we can play...  What are we offering is an NFT Marketplace and MEME Exchange.  Whichever one comes out first.</p>
             </div>
           </div>
 
@@ -148,12 +150,12 @@ export default function Home(): ReactElement {
         <div className="container mx-auto mt-8">
           <div className="flex justify-around ">
             <div className="px-20 py-8 rounded text-center">
-              <span className="uppercase sm:text-xl tracking-widest text-gray-400">Stage 3</span>
-              <h1 className="text-center mt-4">LC Marketplace</h1>
+              <span className="uppercase sm:text-xl tracking-widest text-gray-400">Stage III</span>
+              <h1 className="text-center mt-4">Virtual World</h1>
             </div>
           </div>
           <div className="text-center sm:text-2xl my-4 sm:w-2/3 mx-auto px-4 ">
-            <p className="my-4">LC Marketplace and exchange shall be comminced to porvide community wise NFTs</p>
+            <p className="my-4">In this stage, we shall expand on the virtual world where we shall have Longcat Video game and virtual land to be part of the overall map</p>
             <br />
             <a
               target="_blank"
@@ -170,12 +172,12 @@ export default function Home(): ReactElement {
         <div className="container mx-auto mt-8">
           <div className="flex justify-around ">
             <div className="px-20 py-8 rounded text-center">
-              <span className="uppercase sm:text-xl tracking-widest text-gray-400">Stage 4</span>
+              <span className="uppercase sm:text-xl tracking-widest text-gray-400">Stage IV</span>
               <h1 className="text-center mt-4">Crossing Over</h1>
             </div>
           </div>
           <div className="text-center sm:text-2xl my-4 sm:w-2/3 mx-auto px-4 ">
-            <p className="my-4">Longcat shall cross to the real world by providing a physical marketplace and a cafe</p>
+            <p className="my-4">Longcat shall cross to the real world by providing a physical marketplace and a cafe.  While bridging between both worlds and operates throught a proxy.  The projection of hte virtual world will be observed in reality.</p>
             <br />
             <a
               target="_blank"
@@ -192,10 +194,9 @@ export default function Home(): ReactElement {
           <div className="flex justify-around">
             <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 ">
               <span className="uppercase sm:text-xl tracking-widest text-gray-400">Get your Presale Tokens</span>
-              <h1 className="text-center mt-4 capitalize">Get your Meme Token Here</h1>
-              <p className="text-xl sm:text-2xl text-gray-400">Buy the Meme token now and you shall be able to trade it for double the amount of LCT before ICO launch!</p>
-              <br/> <p>Note that:</p>
-              <br/> <p>1 Meme token = 2 LCT<br/>1 USDT = 1 LCT<br/>1 LCT = 1 Meme token<br/>WHERE IS THE LOGIC IN THAT!!!<br/></p>
+              <h1 className="text-center mt-4 capitalize">Get your Meme Coin Here</h1>
+              <p className="text-xl sm:text-2xl text-gray-400">Buy the Meme Coin now and you shall be able to trade it for double the amount of LC Token!</p>
+
 
 <br />
               <a

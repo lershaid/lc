@@ -17,7 +17,7 @@ export default function FAQ(): ReactElement {
         <div className="my-8">
           <h3>What is Longcat?</h3>
           <p>
-            Longcat is a cat that is long...{"....too looooong..."}
+            Longcat is a cat that is long...{"....too looooong..."}, you can read more about it in (
             <a
 
               href="https://en.uncyclopedia.co/wiki/Longcat"
@@ -25,35 +25,18 @@ export default function FAQ(): ReactElement {
               rel="noopener noreferrer"
               style={{ color: 'red' }}
             >
-              Longcats
+               Wikipedia
             </a>
-            . At release, anyone could claim loot bags for just gas, and all
-            bags were claimed in under 4 hours. Each loot bag contains 8 items:
-            a piece for an adventurer&apos;s chest, foot, hand, head, neck, ring,
-            waist, and weapon.
+          ) . Longcats are holy and rarely cited, which provides a mystique aura around them, which resulted in us choosing them for our project. We are working on the ressorruction strategy for our longcat.
           </p>
-          <p>
-            Loot is an unaudited project. Bags #1 to #7777 were claimable by
-            anyone and #7778 to #8000 are currently reserved for the contract
-            deployer.
-          </p>
+
         </div>
 
         {/* Why is loot special? */}
         <div className="my-8">
-          <h3>Why is loot special?</h3>
+          <h3>What is Longcat Token</h3>
           <p>
-            Loot is unique—the first project of its kind. With no company, art,
-            team, or attributes, Loot makes it impossible to gate-keep any
-            creative decisions (h/t{" "}
-            <a
-              href="https://twitter.com/john_c_palmer/status/1432606797186179072?s=20"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              @john_c_palmer
-            </a>
-            ).
+            We created Longcat Token (LCT) in order to fund our journey of adventure and fun(virtually and in reality).  Note that we are not promising any monetary gains from our token, however, we are promising that the community will have fun with us in our journey.
           </p>
           <p>
             Loot is the unfiltered, uncensorable building block for stories,
@@ -64,65 +47,43 @@ export default function FAQ(): ReactElement {
 
         {/* Can I build with loot? */}
         <div className="my-8">
-          <h3>Can I build with Loot?</h3>
+          <h3>What is MEME Coin?</h3>
           <p>
-            Yes, you are free to use Loot in any way you want. For inspiration,
-            see existing{" "}
-            <Link href="/resources">
-              <a>resources</a>
-            </Link>{" "}
-            put together by the community.
+          We though about a new way of selling preffered positoin/coins prior to the launch and
+          that's by selling a coin prior to the issuance of the Token.
+          This coin we call it MEME COIN (MC).
+          MC will be the liquidity pool token that will be used for LC Project and other projects down the line.  MC will be circulated on a project basis.
           </p>
+          <p>
+            Meme Coin similar to Longcat Token shall be based on the Ethereum Network for the time being.  Until we can justify moving the blockchain toward a new network, we shall not change.
+          </p>
+
         </div>
 
         {/* Am I priced out of loot? */}
         <div className="my-8">
-          <h3>Am I priced out of loot?</h3>
+          <h3>What is the exchange value?</h3>
           <p>
-            Not at all. Through{" "}
-            <Link href="/synthloot">
-              Synthetic Loot
-            </Link>
-            , all addresses have access to virtual Loot that developers can
-            integrate into the Loot projects they build.
+We are planning to place the exchange value for the pre ICO to be double the amount that been bought for. Therefore, 1 MC shall be exchanged for 2 LCT and 1 LCT shall be traded exchanged for 1 USDT, while the buying price per MC is 1USDT.  This will be honored during the ICO period of the coin.  Note that MC will be exchanged to LCT in our website LCT.Exchange.
           </p>
-          <p>
-            Thus, anyone with an Ethereum wallet is allowed to participate in
-            the ecosystem, while still maintaining distinction between original
-            Loot and synthetics.
-          </p>
+
         </div>
 
         {/* How do I value loot bags? */}
         <div className="my-8">
-          <h3>How do I value Loot bags?</h3>
+          <h3>What are the plans for the ICO?</h3>
           <p>
-            They say that value is always in the eye of the beholder. Loot is no
-            different, with no explicit rarities specified at launch. How you
-            value a loot bag is up to you.
+As we have mentioned before, the first stage of our deployment is that we shall start our NFT Marketplace and our MEME Exchange. The next stage shall be a virtual world, where we are deploying a videogame based on Longcat and virtual land that you could acquire. We are working on integrating NFTs to the videogame, such that it shall provide a comprehensive experince to the community and the users.  Afterwards, we Are bridging toward the real world and open LC Cafe and Marketplace, were our community members can meet, play and enjoy their time there.  We will allow LCT to be a currency to buy products and goods from the cafe and be the first.
           </p>
-          <p>
-            Still, the community has begun to devise many mechanisms by which to
-            assess the rarity of bags and their items. Some of these include{" "}
-            <a
-              href="https://github.com/Anish-Agnihotri/dhof-loot/blob/master/output/rare.json"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              rarity by occurence
-            </a>{" "}
-            or{" "}
-            <a
-              href="https://0xinventory.app/help"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              item score
-            </a>
-            .
-          </p>
-          <p>Remember, use your own discretion when valuing a loot bag.</p>
-        </div>
+            </div>
+
+            <div className="my-8">
+              <h3>What is our asapirations in the future?</h3>
+              <p>
+Altought that we are not promising any monetary gains/ values, we are aspiring to become a top ten meme coins to be traded by the mid of 2022.  We wants to be the first Meme coin that is backed by it's community that allows the bridging toward real life and provide value back to the users. and LC Cafe shall be the first cafe in the world to accept payment in Meme coins and trade in value of NFTs, as in replicating the virtual world in reality.
+              </p>
+                </div>
+
       </div>
     </Layout>
   );
