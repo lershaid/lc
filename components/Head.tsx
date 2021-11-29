@@ -10,7 +10,7 @@ export function Head(): ReactElement {
             <meta name="title" content="Longcat" />
             <meta
                 name="description"
-                content="Longcat is randomized adventurer gear generated and stored on chain."
+                content="Longcat is a cat that is looong... actually wayyy too looong"
             />
 
             {/* OG + Faceook */}

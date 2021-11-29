@@ -5,13 +5,13 @@ export function Footer(): ReactElement {
     return (
         <div className={styles.footer}>
             <p>
-                This website is developed and maintained by Longcat Army{" "}
+                This website is developed and maintained by {" "}
                 <a
-                    href="https://github.com/lootproject/website"
+                    href="LC.Army"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    open source
+                    Longcat Army
                 </a>
                 .
             </p>

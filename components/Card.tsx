@@ -15,7 +15,7 @@ type CardProps = {
 export function Card(props: CardProps) {
   const { selected: isSelected, project } = props;
 
-  const loot = "w-full sm:w-1/2 md:w-1/2 mb-10 "
+  const loot = "w-full sm:w-full md:w-full mb-full "
 
   const all = "w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/4 mb-10 "
   return (
@@ -28,7 +28,7 @@ export function Card(props: CardProps) {
             <img
               src={project.image as string}
               className=
-              "transition delay-300 duration-700 rounded-t-3xl object-cover object-bottom sm:h-96 w-full"
+              "transition delay-300 duration-700 rounded-t-3xl object-cover object-bottom sm:h-95 w-full"
 
             />
           </div>
