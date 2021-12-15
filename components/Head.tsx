@@ -15,23 +15,23 @@ export function Head(): ReactElement {
 
             {/* OG + Faceook */}
             <meta property="og:type" content="website" />
-            <meta property="og:url" content="https://www.lootproject.com/" />
+            <meta property="og:url" content="https://lc.army" />
             <meta property="og:title" content="Longcat" />
             <meta
                 property="og:description"
-                content="Longcat is randomized adventurer gear generated and stored on chain."
+                content="Longcat is a special species of cats that are roaming the earth"
             />
-            <meta property="og:image" content="https://lootproject.com/meta.png" />
+            <meta property="og:image" content="https://lc.army/meta.png" />
 
             {/* Twitter */}
             <meta property="twitter:card" content="summary_large_image" />
-            <meta property="twitter:url" content="https://www.lootproject.com/" />
+            <meta property="twitter:url" content="https://lc.army/" />
             <meta property="twitter:title" content="Longcat" />
             <meta
                 property="twitter:description"
                 content="Longcat is randomized adventurer gear generated and stored on chain."
             />
-            <meta property="twitter:image" content="https://lootproject.com/meta.png" />
+            <meta property="twitter:image" content="https://lc.army/meta.png" />
 
             {/* Font */}
             <link rel="preconnect" href="https://fonts.googleapis.com" />

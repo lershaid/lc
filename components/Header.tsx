@@ -62,15 +62,15 @@ export function Header(props: NavProps) {
             </div>
             <div className="self-center hidden sm:block">
                 <ul className="flex space-x-4 mr-auto">
-                    <li className="bg-gray-700 px-4 py-1 rounded  ml-auto">
+                    <li className="bg-blue-700 px-4 py-1 rounded  ml-auto">
                         {isConnected && (
                             <span>
-                                {displayName} {" "}
+                                {displayName} {"Meow!"}
                                 <a
                                     className={[styles.header__links_active, 'cursor-pointer  font-body'].join(' ')}
                                     onClick={disconnectWallet}
                                 >
-                                    [ disconnect ]
+                                    [ Go Bye Bye ]
                   </a>
                             </span>
                         )}
