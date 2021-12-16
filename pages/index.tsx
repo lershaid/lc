@@ -201,7 +201,7 @@ export default function Home(): ReactElement {
 <br />
               <a
                 target="_blank"
-                href="https://lct.market"
+                href="lct.market"
                 className="bg-gray-800 hover:bg-gray-600 py-2 rounded-xl px-5 my-1 text-lg  text-gray-200 border border-gray-700 w-full text-center"
               >
                   BUY TOKENS
