@@ -42,14 +42,14 @@ export default function Home(): ReactElement {
                   <Telegram className="fill-current hover:text-gray-200 w-6 h-6 mx-2" />
                 </a>
                 <a
-                  href="https://twitter.com/lootproject"
+                  href="https://twitter.com/LCTArmy"
                   className="self-center p-3 border border-gray-800 rounded-xl  bg-black hover:bg-gray-600"
                   target="_blank"
                 >
                   <Twitter className="fill-current  text-white w-6 h-6 mx-2" />
                 </a>
                 <a
-                  href="https://discord.gg/KuYyKXam9G"
+                  href="https://discord.gg/DwsAUqZS"
                   className="self-center p-3 border border-gray-800 rounded-xl  bg-black hover:bg-gray-600"
                   target="_blank"
                 >
@@ -195,7 +195,7 @@ export default function Home(): ReactElement {
             <div className="px-4 sm:px-20 py-8 rounded-2xl text-center md:w-2/3 ">
               <span className="uppercase sm:text-xl tracking-widest text-gray-400">Get your Presale Tokens</span>
               <h1 className="text-center mt-4 capitalize">Get your Meme Coin Here</h1>
-              <p className="text-xl sm:text-2xl text-gray-400">Buy the Meme Coin now and you shall be able to trade it for double the amount of LC Token!</p>
+              <p className="text-xl sm:text-2xl text-gray-400">Buy Meme Coin now and you shall be able to trade it for double the amount of LC Token!</p>
 
 
 <br />
